@@ -47,7 +47,7 @@ export default function Onboarding() {
   return (
     <section className="w-full max-w-[32rem] p-10 rounded-2xl shadow-2xl bg-white">
       <h2 className="text-3xl font-bold mb-4">Welcome to Vester.AI</h2>
-      <p className="text-gray-800 text-base">We're excited to have you onboard. Let's get started by collecting some information about your startup.</p>
+      <p className="text-gray-800 text-base">We&apos;re excited to have you onboard. Let&apos;s get started by collecting some information about your startup.</p>
     
       <div className="mt-8">
         {step === 1 ? <Form1 errors={step1Errors}/> : <Form2 errors={step2Errors} />}
